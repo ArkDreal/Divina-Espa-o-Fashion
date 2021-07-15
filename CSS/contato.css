@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin-top: 60px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #660027;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_header{
+    height: 90px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.container_contato{
+    border: 1px solid #660027;
+    height: 700px;
+    width: 780px;
+    left: 121px;
+    top: 192px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container_contato label{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.botao_contato{
+    width: 70px;
+    color: #660027;
+    border: 2px solid #660027;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.aside_Contato{
+    height: 700px;
+    width: 400px;
+    left: 920px;
+    top: 192px;
+    border-radius: 0px;
+    background: #660027;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside_Contato p{
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
