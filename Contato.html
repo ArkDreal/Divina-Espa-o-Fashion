@@ -12,36 +12,43 @@
 
 <body>
     <header>
-        <div class = "container container_header">
             <div>
                 <img class = "logo" src= "imagens/logo (1).png" alt = "Logo do Divina Espaço Fashion">
             </div>
             <nav class = "nav_header">
-                <h1>Home</h1>
-                <h1>Masculino</h1>
-                <h1>Feminino</h1>
-                <h1>Contato</h1>
+                <a href=""> Home </a> 
+                <a href=""> Masculino </a>
+                <a href=""> Feminino </a>
+                <a href=""> Contato </a>
             </nav>
-        </div>
     </header>
 
-    <main>
-        <section class="container container_contato">
-            <h2>Contato</h2>
-            <label class="" for="name"> Nome Completo <input type="text" id="nome" /></label>
-            <label for="email"> Email <input type="email" id="email" /></label>
-            <label for="telefone"> Telefone <input type="text" id="telefone" /></label>
-            <label for="mensagem"> Mensagem <textarea type="text" id="mensagem" ></textarea></textarea></label>
-            <button class="botao_contato" type="button" onclick="alert"> Enviar </button>
+    <main class="container">
+        <section>
+          <form action="">
+            <h1> Contato </h1>
+            
+            <label class="" for="name"> Nome Completo </label>
+            <input type="text" id="nome" />
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" />
+
+            <label for="telefone"> Telefone </label>
+            <input type="text" id="telefone" />
+
+            <label for="mensagem"> Mensagem </label>
+            <textarea name="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+
+            <button type="submit" onclick="alert"> Enviar </button>
+
+          </form>
         </section>
 
-        <aside class="aside_Contato">
-            <p>
-                Fone: 31 99999 9666
-               
-                e-mail: contato@divinafashion.com
-                
-                Endereço: AV. Principal, 123 . BH/MG</p>
+        <aside>
+            <p> <span>Fone:</span> 31 99999 9666</p>
+            <p> <span>E-mail:</span> contato@divinafashion.com</p>
+            <p> <span>Endereço:</span> AV. Principal, 123 . BH/MG</p>
         </aside>
     </main>
 
